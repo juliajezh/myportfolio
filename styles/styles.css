@@ -1,0 +1,600 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+@font-face {
+    src: url(../types/ColorTube-Regular.ttf);
+    font-family: "ColorTube"
+}
+
+@font-face {
+    src: url(../types/Comfortaa-Regular.ttf);
+    font-family: "comforta-regular"
+}
+
+@font-face {
+    src: url(../types/Comfortaa-Bold.ttf);
+    font-family: "comforta-bold"
+}
+
+@font-face {
+    src: url(../types/rounded-mplus-1c-extrabold.ttf);
+    font-family: "Rounded"
+}
+
+a {
+    font-family: "comforta-regular";
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    padding-right: 35px;
+}
+
+.links-nav {
+    padding-left: 35px;
+}
+
+a:hover {
+    color: coral;
+    cursor: pointer;
+}
+
+h1 {
+    font-family: "Rounded";
+    font-size: 80px;
+    color: black;
+    text-decoration: none;
+    padding-bottom: 30px;
+}
+
+h2 {
+    font-family: "Rounded";
+    font-size: 60px;
+    color: black;
+    text-decoration: none;
+    padding-bottom: 80px;
+    padding-top:40px;
+    padding-left: 40px;
+}
+
+h3 {
+    font-family: "Rounded";
+    font-size: 36px;
+    color: black;
+    text-decoration: none;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 40px;
+}
+
+h4 {
+    font-family: "Rounded";
+    font-size: 36px;
+    color: black;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+p {
+    font-family: "comforta-regular";
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    line-height: 1.5;
+}
+.bold {
+    font-family: "comforta-bold";
+    font-size: 25px;
+    text-decoration: underline wavy coral;
+}
+
+.bold-link {
+    display: block;
+    margin: 0 auto;
+    font-family: "comforta-bold";
+    font-size: 25px;
+    text-decoration: none;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+#blue:hover, #orange:hover, #green:hover{
+    color: black;
+}
+
+#blue {
+    color:#5CA6BD;
+}
+
+#orange {
+    color:#EA8F59;
+}
+
+#green {
+    color:#79A69B;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: fixed;
+}
+
+#home {
+    padding-top: 300px;
+    padding-bottom: 250px;
+    padding-right: 100px;
+    display:flex;
+    align-items: center;
+}
+
+.home-info {
+    width: 70%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.home-image img {
+    width: 70%;
+}
+
+.home-image {
+    width: 30%;
+    text-align: center;
+}
+
+#work {
+    padding-top: 50px;
+}
+
+.product-paragraph {
+    padding-right:170px;
+    padding-left: 40px;
+}
+
+#lines {
+    display: flex;
+    flex-direction: row-reverse;
+    border-top: none;
+    border-bottom: none;
+}
+
+.product {
+    display:flex;
+    border-top: solid 4px black;
+    border-bottom: solid 4px black;
+}
+.product-info {
+    height: 100%;
+    width: 50%;
+    padding-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+}
+.product-image {
+    width: 50%;
+}
+
+.product-image img {
+    object-fit: cover;
+}
+
+.product-image:hover{
+    width: 60%;
+} 
+
+#last-product {
+    margin-bottom: 100px;
+}
+
+#about {
+    padding-top: 50px;
+}
+
+.about-section1 {
+    display: flex;
+    align-items: center;
+}
+
+.about-image {
+    width: 30%;
+    text-align: center;
+    padding-right: 40px;
+}
+
+.about-image img {
+    width: 80%;
+}
+
+.about-info {
+    width: 70%;
+    padding-right: 100px;
+    padding-left: 40px;
+}
+
+.social-media {
+    width: 60%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.social-media img {
+    width: 104px
+}
+
+.social-media-image {
+    width: 80px;
+    height: 80px;
+}
+
+.about-section2 {
+    padding-top: 40px;
+    padding-bottom: 300px;
+}
+.about-section21 {
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+.about-section22 {
+    padding-left: 40px;
+    padding-bottom: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.contact-logos {
+   width: 60%;
+   padding-left: 40px;
+   display: flex;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+   align-items: baseline;
+}
+
+.little-text {
+    padding-right: 35px;
+}
+
+.whatsapp-image img {
+    width: 104px;
+}
+
+.whatsapp-image {
+    width: 40px;
+    height: 40px;
+}
+
+.link-contact {
+    font-family: "comforta-bold";
+    font-size: 25px;
+    text-decoration: none;
+}
+
+footer {
+    height: 125px;
+    width: 100%;
+    border-top: solid 4px black;
+}
+
+.footer {
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.instagram-image img {
+    width: 104px
+}
+
+.instagram-image {
+    width: 40px;
+    height: 40px;
+}
+
+@keyframes changecolor{
+    0%{
+        background-color: #abc9c7;
+    }
+    50%{
+        background-color: #cdb471;
+    }
+    100%{
+        background-color: #abc9c7;
+    }
+}
+
+.footer {
+    background-color: #EEEEEE;
+    animation: changecolor 6s infinite;
+}
+
+@media only screen and (max-width: 414px) {
+
+    body {
+        overflow-x: hidden;
+    }
+    /* * {
+        box-sizing: content-box;
+    } */
+
+    a {
+        font-size: 20px;
+        padding-right: 0px;
+    }
+    
+    .links-nav {
+        padding-left: 15px;
+        padding-bottom: 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    h1 {
+        font-size: 50px;
+        padding-bottom: 30px;
+    }
+    
+    h2 {
+        font-size: 35px;
+        padding-bottom: 80px;
+        padding-top:40px;
+        padding-left: 20px;
+    }
+    
+    h3 {
+        font-size: 22px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 20px;
+    }
+    
+    h4 {
+        font-size: 22px;
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
+    
+    p {
+        width: 100%;
+        font-size: 16px;
+        line-height: 1.2;
+    }
+    .bold {
+        font-size: 20px;
+    }
+    
+    .bold-link {
+        display: block;
+        margin: 0 auto;
+        font-family: "comforta-bold";
+        font-size: 20px;
+        text-decoration: none;
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+    
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 0px;
+    }
+    
+    #home {
+        padding-bottom: 50px;
+        padding-top: 200px;
+        padding-right: 20px;
+        padding-left: 20px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .home-info {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 40px;
+    }
+    
+    .home-image img {
+        width: 65%;
+        align-content: center;
+    }
+    
+    .home-image {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .product-paragraph {
+        padding-right:20px;
+        padding-left: 20px;
+    }
+    
+    #lines {
+        display: flex;
+        flex-direction: row-reverse;
+        border-top: none;
+        border-bottom: none;
+    }
+    
+    .product {
+        display:flex;
+        border-top: solid 4px black;
+        border-bottom: solid 4px black;
+        flex-wrap: wrap;
+    }
+    .product-info {
+        height: 100%;
+        width: 100%;
+        padding-left: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items:center;
+    }
+    .product-image {
+        width: 100%;
+    }
+    
+    .product-image img {
+        object-fit: cover;
+    }
+    
+    #last-product {
+        margin-bottom: 50px;
+    }
+    
+    .about-section1 {
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .about-image {
+        width: 100%;
+        text-align: center;
+        padding-right: 0;
+    }
+    
+    .about-image img {
+        width: 65%;
+    }
+    
+    .about-info {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-bottom: 40px;
+    }
+    
+    .social-media {
+        width: 60%;
+        padding-top: 20px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        justify-items: center;
+        align-items: baseline;
+    }
+    
+    .social-media img {
+        width: 92px
+    }
+    
+    .social-media-image {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .about-section2 {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    .about-section21 {
+        padding-left: 0px;
+        padding-bottom: 20px;
+    }
+    
+    .about-section22 {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: baseline;
+    }
+    
+    .contact-logos {
+       width: 100%;
+       padding-left: 0px;
+       display: flex;
+       justify-content: space-between;
+       flex-wrap: nowrap;
+       align-items: center;
+    }
+    
+    .little-text {
+        display:none;
+        padding-right: 35px;
+    }
+    
+    .whatsapp-image img {
+        width: 90px;
+    }
+    
+    .whatsapp-image {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .link-contact {
+        font-family: "comforta-bold";
+        font-size: 20px;
+        text-decoration: none;
+    }
+    
+    footer {
+        width: 100%;
+        border-top: solid 4px black;
+    }
+    
+    .footer {
+        background-color: #EEEEEE;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .instagram-image img {
+        width: 90px;
+    }
+    
+    .instagram-image {
+        width: 60px;
+        height: 60px;
+        padding-right:20px;
+    }
+
+    .footer-image {
+        padding-left: 20px;
+    }
+
+    .footer-image img {
+        width: 50vw;
+    }
+}
