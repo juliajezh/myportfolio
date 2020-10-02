@@ -358,15 +358,15 @@ footer {
     
     h2 {
         font-size: 35px;
-        padding-bottom: 80px;
+        padding-bottom: 40px;
         padding-top:40px;
         padding-left: 20px;
     }
     
     h3 {
         font-size: 22px;
-        padding-top: 70px;
-        padding-bottom: 70px;
+        padding-top: 40px;
+        padding-bottom: 40px;
         padding-left: 20px;
     }
     
@@ -391,8 +391,8 @@ footer {
         font-family: "comforta-bold";
         font-size: 20px;
         text-decoration: none;
-        padding-top: 75px;
-        padding-bottom: 75px;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
     
     nav {
@@ -433,6 +433,9 @@ footer {
         text-align: center;
     }
     
+    #work {
+        padding-top: 0px;
+    }
     .product-paragraph {
         padding-right:20px;
         padding-left: 20px;
@@ -475,6 +478,10 @@ footer {
         margin-bottom: 50px;
     }
     
+    #about {
+        padding-top: 0px;
+    }
+
     .about-section1 {
         padding-left: 20px;
         padding-right: 20px;
