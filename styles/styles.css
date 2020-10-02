@@ -7,7 +7,7 @@ html {
   }
 
   img {
-      object-fit: cover;
+      object-fit: container;
   }
 
 @font-face {
