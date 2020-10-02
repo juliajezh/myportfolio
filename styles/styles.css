@@ -191,10 +191,6 @@ nav {
     width: 50%;
 }
 
-.product-image img {
-    object-fit: cover;
-}
-
 .product-image:hover{
     width: 60%;
 } 
@@ -470,6 +466,10 @@ footer {
     .product-image img {
         object-fit: cover;
     }
+
+    .product-image:hover{
+        display: none;
+    } 
     
     #last-product {
         margin-bottom: 50px;
