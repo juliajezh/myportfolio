@@ -6,6 +6,10 @@ html {
     scroll-behavior: smooth;
   }
 
+  img {
+      object-fit: cover;
+  }
+
 @font-face {
     src: url(../types/ColorTube-Regular.ttf);
     font-family: "ColorTube"
